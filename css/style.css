@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+
+    background: url(../img/bg.jpg) center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* header{
+    background-color: rgba(0, 0, 0, 0.700);
+    height: 100vh;
+} */
+button span{
+    color: white !important;
+}
+.emt{
+    cursor: pointer;
+}
+
+
+.late{
+    margin-top: 210px;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.late p{
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.late p span {
+    color:#19cc6c;
+}
+
+.nav-link li a{
+    
+    font-size: 18px;
+    font-family: sans-serif;
+    
+}
+.navbar-nav li .active::before{
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    width: 30px;
+    border-bottom: 2px solid #19cc6c;  
+}
+.navbar-nav li a:hover{
+    color: aqua !important;
+}
+
+
+.bi-twitter{
+    color: white;    
+}
+.bi-facebook{
+    color: white;
+}
+.emt{
+    height: 50px;
+    width: 50px;  
+    background-color: rgba(39, 33, 33, 0.890); 
+    border-radius: 50%;
+    padding-left: 13px;
+    padding-top: 10px;
+}
+.emt:hover{
+    background-color: #19cc6c;
+}
+
+
+
+
+
+
+/* About Page  */
+
+.navbar li a{
+    color: white;
+
+}
+
+nav h1{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: rgba(19, 18, 18, 0.89); */
+}
+
+.naves li a{
+    /* background-color: blue; */
+    margin: 10px;
+    padding: 0;
+}
+.contain{
+    background-color: rgba(0, 0, 0, 0.700);
+    /* ma */
+    /* justify-content: center; */
+}
+.hr{
+    border-bottom: 2px solid white ;
+}
+.mod{
+    letter-spacing: 2px;
+}
+.mod1{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+.mod p{
+    border-bottom: 2px solid white;
+    margin-top: -18px;
+    margin-left: 80px;
+    width: 100px;
+}
+.interst{
+    margin-left: 105px !important;
+}
+.called h4{
+
+    color: #19cc6c;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.bio svg {
+    color: #19cc6c;
+}
+.bio b{
+    margin-right: 10px;
+}
+.about-nav{
+    background-color: rgba(0, 0, 0, 0.965);
+}
+.card1{
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    border-radius: 4px;
+    
+}
+.card1 .lap {
+    height: 55px;
+    width: 55px;
+    background-color: rgba(255, 255, 255, 0.08);
+    text-align: center;
+    border-radius: 50px;
+    margin-top: -50px;
+}
+.card1 svg{
+    color: #19cc6c;
+}
+.card1:hover .lap{
+    background-color:#19cc6c;
+    transition: 1s ease-in-out;
+}
+.card1:hover .lap svg{
+    color: white;
+    transition: 1s ease-in-out;
+}
+.card2{
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    border-radius: 4px;
+}
+
+.bi-code{
+    color: orange;
+}
+.bi-columns-gap{
+    color: rgb(26, 68, 208);
+}
+.bi-braces{
+    color: yellow;
+}
+.bi-bootstrap{
+    color: rgb(87, 20, 175);
+}
+.bi-snow2{
+    color: rgb(35, 167, 228);
+}
+.bi-palette-fill{
+    color: darkred;
+}
+/* About Page End */
+
+
+
+/* Resume page */
+.alice .emp{
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    background-color: #19cc6c;
+    z-index: -1;
+    /* margin-top: 19px; */
+}
+.emp2{
+border-left: 1px solid wheat;
+/* margin-bottom: -10px; */
+}
+.alice h5{
+    color: #19cc6c;
+}
+
+/* Resume page End */
