@@ -47,9 +47,13 @@ button span{
     
 }
 
+.navbar-nav li .active{
+ color: #19cc6c !important;
+}
 .navbar-nav a:hover{
     color:#19cc6c !important;
 }
+
 
 
 .bi-twitter{
@@ -203,6 +207,15 @@ border-left: 1px solid wheat;
 }
 .alice h5{
     color: #19cc6c;
+}
+.resume{
+    overflow: hidden;
+}
+.calit h4 ,.declaration{
+    color: #19cc6c;
+}
+.calit{
+    background-color: rgba(26, 26, 26, 0.89) !important;
 }
 
 /* Resume page End */
