@@ -136,6 +136,16 @@ nav h1 {
     margin-left: 80px;
     width: 100px;
 }
+.mo {
+    letter-spacing: 2px;
+}
+
+.mo p {
+    border-bottom: 2px solid white;
+    margin-top: -18px;
+    margin-left: 100px;
+    width: 100px;
+}
 
 .interst {
     margin-left: 105px !important;
